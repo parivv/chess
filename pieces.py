@@ -38,3 +38,6 @@ wr = pygame.transform.scale(wr, (80, 80))
 
 wp = pygame.image.load('pieces/wp.png')
 wp = pygame.transform.scale(wp, (80, 80))
+
+black_pieces_images = {"queen":bq, "king": bking, "bishop": bb, "knight": bk, "rook": br, "pawn": bp}
+white_pieces_images = {"queen":wq, "king": wking, "bishop": wb, "knight": wk, "rook": wr, "pawn": wp}

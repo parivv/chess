@@ -16,6 +16,7 @@ while running:
     screen.fill((120, 66, 18))
     board = Board(WIDTH, HEIGHT, screen)
     board.draw_board()
+    board.draw_pieces()
     pygame.display.flip()
 
     timer.tick(60)
